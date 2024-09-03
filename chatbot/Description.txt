@@ -1,8 +1,14 @@
+Dataset Reference:
+https://www.kaggle.com/datasets/medardif/chatbot-gpt-3
+
+
+
 Objective
 The goal of this project is to create a robust chatbot that leverages both a pre-defined dataset and a large language model (GPT-4) to provide accurate and contextually relevant responses. The chatbot can answer queries based on a dataset of question-answer pairs and, when necessary, generate responses using the GPT-4 model. This hybrid approach allows for fast responses to known questions and sophisticated handling of more complex or novel queries.
 
 Features
 Dataset Integration:
+
 
 Loading: The chatbot loads a dataset from a CSV file. The dataset contains pairs of questions and answers that the chatbot uses to respond to user queries.
 Keyword Matching: The chatbot performs keyword matching to find the best answer from the dataset based on user input.
